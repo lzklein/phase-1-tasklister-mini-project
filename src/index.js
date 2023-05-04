@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-const createTaskForm = document.querySelector('#create-task-form');
+const createTaskForm = document.querySelector('[type="submit"]');
 const newTaskDescription = document.querySelector('#new-task-description')
 function addTask(){
   const liTask = document.createElement('li');
